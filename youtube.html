@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YouTube Loginpage</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #bar{
+        
+        padding-right: 13px;
+        margin-left: 20px;
+    }
+    #img{
+        padding-right: 0%;
+    }
+    #main{
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border: solid thin black;
+        width: 450px;
+        height: 32px;
+        padding-left: 10px;
+    
+    }
+    #sea{
+        padding-left: 235px;
+        padding-right: 0%;
+    }
+    #second{
+        border: solid thin black;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-color:lightgray;
+        width: 35px;
+        height: 30px;
+        padding-left: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    
+    }
+    #box{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding-right: 15px;
+        }
+    #microphone{
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border: solid thin lightgray;
+        background-color: lightgray;
+    }
+    #mic{
+        padding-right: 375px;
+    }
+    #round{
+        color: blue;
+        height: 30px;
+        width: 80px;
+        border-radius: 50px;
+        background-color: white;
+        border: solid thin lightgray;
+        
+    }
+    #dot{
+        padding-right: 25px;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow-y: auto;
+        width: 600px;
+        height: 80vh;
+    }
+    .baseline{
+        border-bottom: solid thin gray;
+        padding-bottom: 20px;
+        width: 300px;
+    }
+    .item{
+        display: flex;
+    }
+    .tag{
+        display: flex;
+        padding-right: 10px;
+    }
+    #reunio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-betweena;
+        align-items: center;
+    }
+    #lastline{
+        color: lightgray;
+    }
+    .title{
+        display: flex;
+        margin-right: 6px;
+    
+        
+    }
+    span{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: lightgray;
+        border-radius: 10px;
+        width: auto;
+        height: 30px;
+        border-color: lightgray;
+        padding-left: 7px;
+        padding-right: 7px;;
+        padding-top: 5px;
+        margin-right: 10px;
+    }
+    main{
+        display: flex;
+        overflow-y: auto;
+        height: 80vh;
+        width: auto;
+        
+    }
+    #menu{
+        display: flex;
+        justify-content: space-evenly; 
+          
+    }
+    h8:hover{
+        background-color: black;
+        color: white;
+    }
+    .body{
+        display: flex;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 10px;
+        margin:10px;
+        margin-top: 20px;
+        
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <div id="bar">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div id="img">
+            <img src="you.png" width="50" height="50">
+        </div>
+        <div id="y">
+            <h1>YouTube<sup style="font-size: xx-small;">IN</sup></h1>
+        </div>
+            <form id="box" action="youtube.html">
+                <div id="sea">
+                <input id="main" type="search" name="search" placeholder="Search"/>
+                    </div>
+                    <div id="second">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+            </form>
+            <div id="mic">
+                <button id="microphone"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+            </div>
+            <div id="dot">
+                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+            <div id="sign">
+                <button id="round"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Sign in</button>
+            </div>
+            </header>
+            <main>
+            <aside>
+                <ul>
+                    <div class="item">
+                        <div class="tag">
+                        <img src="ho.png" width="22">
+                        </div>
+                        <li>Home</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                            <li><img src="shorts.png" width="27" height="28"></li>
+                        </div>
+                        <li>Shorts</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                            <li><img src="sub.png" width="25"></li>
+                        </div>
+                        <li>Subscriptions</li>
+                    </div><hr><br>
+                    <div class="item">
+                        <div class="tag">
+                    <li><img src="play.png" width="20"></li>
+                        </div>
+                        <li>You</li>
+                    </div><br>
+                   <div class="item">
+                        <div class="tag">
+                        <li><img src="his.png" width="22"></li>
+                        </div>
+                        <li>History</li>
+                    </div><hr><br>
+                   <div class="item">
+                        <li>Sign in to like videos,
+                            comment, and subscribe.<hr>
+                            <button id="round"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Sign in</button></li>
+                    </div><hr><br>
+                    <div class="item">
+                        <h8><b>Explore</b></h8>
+                    </div><br>
+                   <div class="item">
+                        <div class="tag">
+                    <li><img src="trend-removebg-preview.png" width="28"></li>
+                        </div>
+                        <li>Trending</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <li><img src="shop.png" width="20"></li>
+                        </div>
+                        <li>Shopping</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="song-removebg-preview.png" width="22">
+                        </div>
+                        <li>Music</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="movi.png" width="21">
+                        </div>
+                        <li>Movies</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="live.png" width="22">
+                        </div>
+                        <li>Live</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="gaming-removebg-preview.png" width="29">
+                        </div>
+                        <li>Gaming</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="news.png" width="22">
+                        </div>
+                        <li>News</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="trophy.png" width="22">
+                        </div>
+                        <li>Sports</li>
+                        </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="bulb.png" width="22">
+                        </div>
+                        <li>Learning</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="fashion-removebg-preview.png" width="24">
+                        </div>
+                        <li>Fashion & Beauty</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="cast.png" width="22">
+                        </div>
+                        <li>Podcasts</li>
+                    </div><hr><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="browse.png" width="22">
+                        </div>
+                        <li>Browse channels</li>
+                    </div><hr><br>
+                    <div class="item">
+                        <div class="tag">
+                
+                        </div>
+                        <h8><b>More from Youtube</b></h8>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="you-removebg-preview.png" width="32" height="34">
+                        </div>
+                        <li>YouTube Premium</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="youtubemusic-removebg-preview.png" width="34" height="34">
+                        </div>
+                        <li>YouTube Music</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="you-removebg-preview.png" width="32" height="34">
+                        </div>
+                        <li>YouTube Kids</li>
+                    </div><hr><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="settin.png" width="20">
+                        </div>
+                        <li>Settings</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="fla.png" width="22">
+                        </div>
+                        <li>Report history</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="ques.png" width="22">
+                        </div>
+                        <li>Help</li>
+                    </div><br>
+                    <div class="item">
+                        <div class="tag">
+                    <img src="ex-removebg-preview.png" width="30" height="34">
+                        </div>
+                        <li>Send feedback</li>
+                    </div><hr><br>
+                    <div class="item">
+                        <p>About Press Copyright<br>
+                            Contact us Creators<br>
+                            Adverstise Developers<br>
+                        </p>
+                        <P>Terms Privacy Policy & Safety<br>
+                            How YouTube works<br>
+                            Test new features
+                        </P><br>
+                        </div>
+                        <div class="item">
+                        <li id="lastline">2024 Google LLC</li>
+                    </div>
+                    </ul>
+                    </aside>
+                    <div id="options">
+                        <div id="menu">
+                           <span>All</span>
+                            <span>Live</span>
+                            <span>LO-fi</span>
+                           <span>Bollywood music</span>
+                           <span>Mantras</span>
+                         <span>Wickets</span> 
+                             <span>Background Music</span>   
+                           <span> Tarak Mehta Ka Oolath Chasma</span>
+                             <span>Neha Kakkar songs</span> 
+                             <span>Arijit Singh Songs</span>
+                        </div>
+        
+                        <div class="body">
+                        <div>
+                            <img src="yy1.png" width="400">
+                            Grammarly Helps You Use the right
+                            Tone So You Can Drive Projects..
+                            <h5 style="color: lightgray;">Sponsered Grammarly</h5>
+                        </div>
+                        <div>
+                            <img src="yy2.png" width="400">
+                            Best of Arijit Singhs 2024 Hindi
+                            Trending Songs 2024 Arijit Singh ..
+                            <h5 style="color: lightgray;">2.4M views Streamed 1 month ago</h5>
+                        </div>
+                        <div>
+                            <img src="yy3.png" width="400">
+                            Sachin Tendulkar's master 11 vs
+                            Akshay Kumar's Khiladi 11 |...
+                            <h5 style="color: lightgray;">2.7M views. 15 hours ago</h5>
+                        </div>
+                        </div>
+                        <div class="body">
+                        <div>
+                            <img src="you10.png" width="400"> 
+                            Mortal PLaying With Random Players|
+                            Hum Gareeb Mortal Amir|PUBG...
+                            <h5 style="color: lightgray;">Rock Nation . 12 Lakh views.4 years</h5>
+                        </div>
+                        <div>
+                            <img src="you8.png" width="400">
+                            How to Buy a Perfect Smartphone in 
+                            2024!
+                            <h5 style="color: lightgray;">Tech Burner .9.3 lakh views.9 days ago</h5>
+                        </div>
+                        <div>
+                            <img src="you9.png" width="400">
+                            B.Tech -Stand up Comedy By Harsh Gujral...
+                            <h5 style="color: lightgray;">Harsh gujral.68 lakh views.9 days ago</h5>
+                        </div>
+                        </div>
+                    </div>
+            
+                    </main>
+    
+                    
+                        
+                                   
+</body>
+</html>
