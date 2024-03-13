@@ -28,23 +28,37 @@ h1{
 .grad{
     font-size: xx-large;
     padding-left: 0%;
+    background-image: linear-gradient(to right,blue 0%,purple 550%,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
-.l{
-    color:gray;
-}
+
 section{
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
     display: flex;
-    flex-direction: column;
-    padding-left: 500px;
-    padding-top: 100px;
-    padding-bottom: 0%;
+
 }
 .design{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+}
+#pic{
+    display: flex;
+    flex-direction: row;
+}
+#img{
+    margin-left: 400px;
+}
+.l{
+    margin-left: 20px;
 }
 </style>
 </head>
@@ -64,16 +78,19 @@ section{
 </header>
 <main>
 	<section>
-		<div class="l">
+        <div class="l">
+            
 			<p>Hello</p>
-        </div>
+        
 			<b><h1 class="grad">I'm Epshita</h1></b>
-            <div class="l">
 			 Freelance Web &<br>
-			 UI/UX Designer
-            </div>
+			 UI/UX Designer<br><br>
 			 <b><button style="background-color: yellow;color: black;border-radius: 10px;border: solid thin yellow;width: 100px;height: 25px;">HIRE ME</button></b>
-			</div>
+            </div>
+            <div id="img">
+                <img src="pp.png" width="300px">
+                </div>
+            
 		
 
 		</section>
